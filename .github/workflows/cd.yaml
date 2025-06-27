@@ -37,4 +37,5 @@ jobs:
           script: |
             cd /opt/N3-DEVOPS
             npm install
-            pm2 restart all || pm2 start src/app.js --watch
+            pm2 restart all || pm2 start src/server.js --watch
+
